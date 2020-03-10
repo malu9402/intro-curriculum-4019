@@ -119,7 +119,7 @@ describe('/schedules/:scheduleId/users/:userId/candidates/:candidateId', () => {
         });
     });
   });
-})
+});
 
 function deleteScheduleAggregate(scheduleId, done, err) {
   Availability.findAll({
